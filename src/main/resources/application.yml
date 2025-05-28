@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: 'desafio-url-shorten'
+
+
+  data:
+    mongodb:
+      uri: 'mongodb://admin:123456@localhost:27017/desafio-url-shorten?authSource=admin'
+      database: 'desafio-url-shorten'
+      authentication-database: 'admin'
